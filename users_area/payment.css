@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&display=swap');
+        body{
+            margin: 50px 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito Sans', sans-serif;
+            text-decoration: none;
+            background:#563314;
+        }
+        .checkout-container {
+            width: 90%; /* Adjusted width */
+            max-width: 600px; /* Smaller maximum width */
+            margin: 0 auto; 
+            padding: 5px; /* Smaller padding */
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        .item-row {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .item-image {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+        .item-details {
+            flex-grow: 1;
+            
+        }
+        .item-details p {
+            margin: 5px 0; 
+            font-size: 14px; 
+        }
+        .total-section {
+            margin-top: 20px;
+        }
+        .payment-options {
+            margin-top: 20px;
+        }
+        h4:first-of-type {
+            margin-top: 20px;
+        }
+        
+       
+        .btn-primary {
+            margin-bottom: 20px;
+        }
+        
